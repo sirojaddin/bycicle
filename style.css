@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    height: 100vh;
+    background-color: #16A085 ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Roboto' ,sans-serif;
+    font-size: 62.5%;
+    
+}
+.container {
+    width: 410px;
+    height: 300px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 7px;
+    padding: 30px 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.410)
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bike-image img {
+    width: 400px;
+    margin-left: -35px;
+    height: 250px;
+    transform: translateY(-50px);
+}
+p {
+    margin-top: 10px;
+    color: silver;
+}   
+h4 {
+    color: gray;
+}
+.heading img:hover {
+    cursor: pointer;
+    background-color: silver;
+}
